@@ -1,5 +1,5 @@
 from gym.envs.registration import register
-from ray.tune.registry import register_env
+def register_env(name, fn): pass
 
 from .envs import *
 
